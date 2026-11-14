@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta property="og:title" content="شاي جمر الريف - الأصالة في كل قطرة">
-<meta property="og:description" content="شاي على الجمر، يجهز لك قبل لا توصل. اطلب الآن واستلم من السيارة.">
-<meta property="og:image" content="https://shahi-aljamr.vercel.app/logo.jpg">
-<meta property="og:url" content="https://shahi-aljamr.vercel.app">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>شاي جمر الريف - الأصالة في كل قطرة</title>
@@ -12,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
     <!-- استدعاء أيقونات FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-     
+    
     <style>
         /* المتغيرات الأساسية (الوضع الفاتح) - ألوان احترافية ومريحة */
         :root {
@@ -154,21 +150,13 @@
             align-items: center;
             text-align: center;
             position: relative;
-            
-            /* --- التعديل هنا: فصل الخصائص لحل مشكلة الظهور في الجوال --- */
-            background-color: var(--surface-color);
-            background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url('logo.jpg');
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: contain; /* لاحتواء الصورة بالكامل بدون قص */
-            /* ------------------------------------------------------------- */
-            
+            /* التعديل هنا: استخدام logo.png كخلفية */
+            background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url('logo.jpg') center/cover no-repeat;
             color: white;
             border-bottom-left-radius: 40px;
             border-bottom-right-radius: 40px;
             box-shadow: var(--shadow-lg);
             overflow: hidden;
-            min-height: 40vh; /* لضمان وجود مساحة كافية لعرض الصورة */
         }
 
         .hero h1 {
@@ -638,7 +626,7 @@
         });
 
         // =========================================================================================
-        // --- المنطق البرمجي (جافاسكريبت) ---
+        // --- المنطق البرمجي (جافاسكريبت) من كودك الأصلي - بدون أي تعديل أو نقص في العمليات ---
         // =========================================================================================
         
         var PHONE="966535536731";
