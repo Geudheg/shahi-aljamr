@@ -150,21 +150,13 @@
             align-items: center;
             text-align: center;
             position: relative;
-            
-            /* --- التعديل هنا: فصل الخصائص لحل مشكلة الظهور في الجوال --- */
-            background-color: var(--surface-color);
-            background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url('logo.jpg');
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: contain; /* لاحتواء الصورة بالكامل بدون قص */
-            /* ------------------------------------------------------------- */
-            
+            /* التعديل هنا: استخدام logo.png كخلفية */
+            background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url('logo.jpg') center/cover no-repeat;
             color: white;
             border-bottom-left-radius: 40px;
             border-bottom-right-radius: 40px;
             box-shadow: var(--shadow-lg);
             overflow: hidden;
-            min-height: 40vh; /* لضمان وجود مساحة كافية لعرض الصورة */
         }
 
         .hero h1 {
@@ -634,7 +626,7 @@
         });
 
         // =========================================================================================
-        // --- المنطق البرمجي (جافاسكريبت) ---
+        // --- المنطق البرمجي (جافاسكريبت) من كودك الأصلي - بدون أي تعديل أو نقص في العمليات ---
         // =========================================================================================
         
         var PHONE="966535536731";
